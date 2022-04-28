@@ -155,7 +155,7 @@ def get_plot(p):
         im = ax.imshow(denc_2d, 
                 cmap=cm.afmhot, norm=LogNorm(vmin =0.8, vmax= 1000))
 
-        fig.savefig('eps_plots/'+str(p)+'cic_10Mpc_'+str(ngrid)+'g.eps', format='eps')#saving the plot as eps since we get better quality
+        fig.savefig('/mnt/home1/rionx/plotting_ngp_cic/eps_plots/'+str(p)+'cic_10Mpc_'+str(ngrid)+'g.eps', format='eps')#saving the plot as eps since we get better quality
 
         #plt.show()
         #saving the slice as an .npy file
